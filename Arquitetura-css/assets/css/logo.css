@@ -1,0 +1,17 @@
+@media screen and (min-width: 0) {
+    .logo {
+        display: none;
+    }
+    .logo:hover {
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        display: block;
+    }
+    .logo:hover {
+        cursor: pointer;
+    }
+}
